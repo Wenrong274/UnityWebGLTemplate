@@ -6,14 +6,15 @@
 
 * Get Release
 
-    [UnityPackage]([release)
+    [UnityPackage](release)
 
 * Setting Unity
 
     File -> Build Setting -> Player Setting -> Resolution and Presentation -> WebGL Template -> **Selcet logoTemplates**
 
-    ![sampleImage](image)
+    [SampleImage](image)
 
 ______________________________________________________________________
+
 [release]: ./build/release.unitypackage
 [image]:./images/logotemplate.jpg
