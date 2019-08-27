@@ -1,20 +1,30 @@
-# Setup Unity WebGL Templates
+# How to set up Unity WebGL Template
 
-* Get Document
+執行 WebGL 時都會有 Unity Logo & Loading。目前此專案修改 Unity Logo 的部分。
 
-    [Unity Doc](https://docs.unity3d.com/Manual/webgl-templates.html)
+需要更詳細的內容可以參考官方文件（[Unity Document][doc]）。
 
-* Get Release
+## Setting Up Your Template
 
-    [UnityPackage](release)
+1. Import [Unitypackage][release]
 
-* Setting Unity
+2. Set up Unity Player Setting 
 
-    File -> Build Setting -> Player Setting -> Resolution and Presentation -> WebGL Template -> **Selcet logoTemplates**
+    Edit -> Project Settings -> Player, On the WebGL tab -> Resolution and Presentation -> **Selcet LogoTemplates**
 
-    [SampleImage](image)
+    ![image_1]
 
-______________________________________________________________________
+3. Change Your Logo
+  
+    Logo 規格建議不要太大張。
 
+    Path: root/Assets/WebGLTemplates/LogoTemplate/**logo.png**
+
+    ![image_2]
+
+_____________________________________________________________________
+
+[doc]: https://docs.unity3d.com/Manual/webgl-templates.html
 [release]: ./build/release.unitypackage
-[image]:./images/logotemplate.jpg
+[image_1]: ./images/logotemplate.jpg
+[image_2]: ./images/setinglogo.JPG
